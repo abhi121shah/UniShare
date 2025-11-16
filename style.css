@@ -63,7 +63,51 @@
             transition: all 0.3s;
             font-size: 14px;
         }
+ /* Header */
+        header {
+            padding: 1rem 2rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            transition: background-color 0.3s;
+        }
 
+        body.dark header {
+            background-color: #1f2937;
+        }
+
+        body.light header {
+            background-color: #fff;
+        }
+
+        .header-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo-section {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .logo {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+
+        .logo-text {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
         .btn-login {
             background: #2563eb;
             color: white;
@@ -86,7 +130,11 @@
             background: transparent;
             transition: all 0.3s;
         }
-
+.logo
+{
+   border-radius: 20px;
+   border-color: #10b981;
+}
         .light .icon-btn {
             border-color: #e0e0e0;
             color: #333;
